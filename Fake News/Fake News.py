@@ -47,7 +47,7 @@ from gensim.models.doc2vec import LabeledSentence
 from gensim import utils
 from nltk.corpus import stopwords
 
-# First step Preprocessing
+# First step Preprocessingg
 
 def textClean(text):
     text = re.sub(r"[^A-Za-z0-9^,!.\/'+-=]", " ", text)
